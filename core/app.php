@@ -56,7 +56,7 @@ class App {
 
         } catch (PDOException $e) {
 
-            echo 'Błąd połączenia: ' . $e->getMessage();
+            echo 'Connection Error: ' . $e->getMessage();
 
         }
 
